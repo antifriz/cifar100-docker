@@ -1,4 +1,4 @@
-ARG TF_VERSION=1.13.1
+ARG TF_VERSION=1.14.0
 FROM tensorflow/tensorflow:${TF_VERSION}-gpu-py3
 
 COPY data_loader.py  .
